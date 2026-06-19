@@ -1,0 +1,48 @@
+============================================
+   BuilderIA — COMECE AQUI
+   O construtor de IA do seu negócio
+============================================
+
+Bem-vindo! Em 3 passos o BuilderIA vira o sistema do SEU negócio.
+
+
+PASSO 1 — Descompacte
+   Clique com o botão direito no arquivo .zip e escolha "Extrair tudo".
+   Vai aparecer uma pasta chamada "BuilderIA".
+
+
+PASSO 2 — Abra a pasta no Claude Code
+   Abra o Claude Code na pasta "BuilderIA".
+   (Não tem o Claude Code ainda? Veja "O QUE VOCÊ PRECISA" no fim.)
+
+
+PASSO 3 — Digite:  /instalar
+   No chat, escreva /instalar e dê enter.
+   O sistema te faz algumas perguntas rápidas sobre o seu negócio e se
+   configura sozinho. Roda uma vez só.
+
+
+Pronto! A partir daí é só usar os comandos (digite "/" pra ver todos):
+
+   /abrir       começa o dia já sabendo onde você parou
+   /prompt      transforma uma ideia num prompt profissional
+   /oferta      monta uma oferta irresistível
+   /carrossel   cria carrossel na identidade da sua marca
+   /roteiro     roteiro de Reels / YouTube / VSL
+   /seo         coloca seu negócio pra ser achado no Google
+   /anuncio-google   campanha pronta pra importar
+   ... e mais de 40 comandos. Explore!
+
+
+O QUE VOCÊ PRECISA
+   - Claude Code instalado (é onde o BuilderIA roda).
+     Instale em: https://claude.com/claude-code
+
+
+SOBRE OS SEUS DADOS
+   Tudo o que você cria fica salvo no SEU computador, na pasta.
+   Backup na nuvem é opcional — o próprio sistema pergunta se você quer
+   quando você rodar /salvar. Você não precisa de GitHub nem de conta.
+
+
+Bora construir. 🚀

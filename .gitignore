@@ -1,0 +1,21 @@
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Dependências / build
+node_modules/
+dist/
+.next/
+.vercel/
+
+# Ambiente e segredos — NUNCA versionar
+.env
+.env.local
+*.key
+*.pem
+
+# Temporários
+*.log
+*.tmp
+~$*
