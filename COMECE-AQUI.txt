@@ -6,9 +6,10 @@
 Bem-vindo! Em 3 passos o BuilderIA vira o sistema do SEU negócio.
 
 
-PASSO 1 — Descompacte
-   Clique com o botão direito no arquivo .zip e escolha "Extrair tudo".
-   Vai aparecer uma pasta chamada "BuilderIA".
+PASSO 1 — Tenha a pasta no seu computador
+   - Se você CLONOU pelo Claude Code: já está pronto, pule pro passo 2.
+   - Se você baixou o .ZIP: clique com o botão direito e "Extrair tudo".
+     Vai aparecer uma pasta chamada "BuilderIA".
 
 
 PASSO 2 — Abra a pasta no Claude Code
