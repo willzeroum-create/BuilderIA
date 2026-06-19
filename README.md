@@ -14,7 +14,7 @@ e operação rodarem — com você no comando.
 Abra o Claude Code em qualquer pasta e cole isto no chat:
 
 ```
-Clona o https://github.com/<SEU-USUARIO>/BuilderIA.git na pasta atual,
+Clona o https://github.com/willzeroum/BuilderIA.git na pasta atual,
 entra nela e roda o /instalar.
 ```
 
