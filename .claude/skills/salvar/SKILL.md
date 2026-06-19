@@ -38,11 +38,16 @@ Na **primeira vez** que o `/salvar` rodar sem backup na nuvem configurado,
 - Se **não**: seguir só local. Registrar a escolha em `_memoria/empresa.md`
   (seção "Configurações", ex.: "Backup: local, sem nuvem por enquanto") pra
   não perguntar de novo. Lembrar que dá pra ligar a nuvem a qualquer momento.
-- Se **sim**: explicar em 1 linha, criar/logar a conta, criar o repositório
-  (**privado** por padrão) e subir: `git remote add origin <url>` +
-  `git push -u origin main`. **Tudo o que já foi salvo localmente sobe junto,
-  com o histórico inteiro — nada se perde** (a "migração" sem dor). Registrar
-  que a nuvem está ligada; daí em diante o `/salvar` manda pra nuvem também.
+- Se **sim**: criar **um repositório NOVO, do próprio usuário** (privado por
+  padrão). Antes, conferir o remoto: se existir um `origin` apontando pro
+  repositório do produto (não é do usuário), **não usar ele** — remover com
+  `git remote remove origin`. Então criar o do usuário:
+  `gh repo create <nome> --private --source=. --remote=origin --push`. Sem
+  `gh`/conta, guiar a criar um repo vazio no GitHub dele e rodar
+  `git remote add origin <url-do-usuario>` + `git push -u origin main`.
+  **Tudo o que já foi salvo localmente sobe junto, com o histórico inteiro —
+  nada se perde** (a "migração" sem dor). Registrar que a nuvem está ligada;
+  daí em diante o `/salvar` manda pra nuvem também.
 
 Se o usuário já tiver respondido antes, **não perguntar de novo** — só
 respeitar a configuração registrada.

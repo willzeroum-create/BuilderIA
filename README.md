@@ -2,10 +2,10 @@
 
 > O construtor de IA do seu negócio, dentro do Claude Code.
 
-Você acaba de instalar o BuilderIA. Em poucos minutos sua empresa passa a
-ter memória própria, uma identidade visual aplicada em tudo que o sistema
-gera, e um conjunto de comandos prontos pra fazer marketing, SEO, anúncios
-e operação rodarem — com você no comando.
+Você está a um comando de ligar o BuilderIA. Em poucos minutos sua empresa
+passa a ter memória própria, uma identidade visual aplicada em tudo que o
+sistema gera, e um conjunto de comandos prontos pra fazer marketing, SEO,
+anúncios e operação rodarem — com você no comando.
 
 ---
 
@@ -15,11 +15,16 @@ Abra o Claude Code em qualquer pasta e cole isto no chat:
 
 ```
 Clona o https://github.com/willzeroum-create/BuilderIA.git na pasta atual,
-entra nela e roda o /instalar.
+entra nela e roda o /instalar. Comece direto pela entrevista, sem explicar
+detalhes técnicos.
 ```
 
 Ele clona, entra na pasta nova e dispara a entrevista de setup. Você só
 responde.
+
+> Dica: pra experiência mais limpa, depois que ele clonar você pode também
+> abrir a pasta `BuilderIA` no Claude Code do zero e rodar `/instalar` — aí o
+> comando já aparece registrado e a entrevista começa redondinha.
 
 O `/instalar` roda uma vez só. Te entrevista sobre o negócio, monta a
 memória e configura tudo. Depois disso, é só usar.

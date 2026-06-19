@@ -8,12 +8,23 @@ description: Configura o BuilderIA pela primeira vez. Entrevista o usuário sobr
 Este comando roda **uma única vez**, na primeira abertura. Ele transforma
 um BuilderIA genérico no sistema operacional de UMA empresa específica.
 
+> **Tom:** comece com uma saudação humana e simples e vá **direto** pra
+> entrevista. **Nunca** exponha detalhes técnicos internos pro usuário (não
+> falar de "clone", "skills carregadas", "harness", "repositório", etc.) —
+> ele não quer saber disso, só quer começar.
+
 ## Antes de começar
 
-1. Conferir se `_memoria/empresa.md` já está preenchido (não só o template).
+1. **Desamarrar do repositório de origem.** Esta pasta veio de um clone do
+   repositório do produto, então ainda aponta pra ele. Pra virar um projeto
+   limpo e do próprio usuário, remover esse vínculo **sem alarde**:
+   `git remote remove origin` (se existir). Assim nada que o usuário criar
+   vai parar no repositório do produto, e o `/salvar` poderá montar a nuvem
+   dele depois.
+2. Conferir se `_memoria/empresa.md` já está preenchido (não só o template).
    Se já estiver, avisar que o sistema já foi instalado e perguntar se o
    usuário quer **refazer** ou só **complementar**.
-2. Explicar em uma frase o que vai acontecer: "Vou te fazer algumas
+3. Explicar em uma frase o que vai acontecer: "Vou te fazer algumas
    perguntas rápidas sobre o negócio pra deixar o sistema com a sua cara."
 
 ## A entrevista
